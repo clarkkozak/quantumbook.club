@@ -1,0 +1,26 @@
+{
+  "name": "quantumbook.club",
+  "version": "1.0.0",
+  "description": "An online book club for the world",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juxley/quantumbook.club.git"
+  },
+  "keywords": [
+    "online",
+    "collobrative",
+    "book",
+    "club",
+    "study"
+  ],
+  "author": "Juxley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juxley/quantumbook.club/issues"
+  },
+  "homepage": "https://github.com/juxley/quantumbook.club#readme"
+}
