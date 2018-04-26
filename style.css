@@ -45,12 +45,6 @@ body {
     height: 100%
 }
 
-
-
-nav img {
-    display: inline;
-}
-
 nav {
     position: fixed;
     top: 0;
@@ -65,8 +59,34 @@ nav {
     border-left: solid 1px black;
 }
 
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1028px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+nav img {
+    display: inline;
+    width: 48px;
+    margin-top: 16px;
+}
+
+
 nav ul {
     height: 10px;
+    display: none;
+}
+
+@media screen and (min-width: 620px) {
+    nav ul {
+        display: block;
+    }
+
+    .mobile-menu-button {
+        display: none;
+    }
 }
 
 nav li {
