@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,54 +8,103 @@
     <meta name="author" content="Juxley"></meta>
     <meta name="description" content="An online book club for the world."></meta>
     <title>Quantum Book Club</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
- <nav>
-	 <ul>
-		<li class="right"><a href="index.html"><img src="images/logo.png" alt="logo.png"/></a></li>
-	 	<li><a href="learn.html">Learn</a></li>
-	 	<li><a href="club.html">Clubs</a></li>
-	 	<li><a href="account.html">My Account</a></li>
-	 </ul>
- </nav>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
 
- <div class="banner-background">
-	<div class="banner-text">
-	 <h1>Quantum Book Club</h1>
-	 <h2>Creating a Global Book Club</h2>
-	</div>
+</head>
+
+<body>
+
+    <div class="container-fullwidth">
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Quantum Book Club</a>
+
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+		        <span class="navbar-toggler-icon"></span>
+	    </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="learn.html">Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clubs.html">Clubs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="account.html">My Account</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+<div/>
+
+        <div class="jumbotron">
+            <h1 class="display-4">Quantum Book Club</h1>
+            <p class="lead">An online book club for the world</p>
+        </div>
+
+
+	<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="card mb-4">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Collborate</h3>
+                        <p class="card-text">Explore your favorite book with others</p>
+                        <a href="#" class="card-link">Find a Club</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card mb-4">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Join Today</h3>
+			<p class="card-text">Be the first to beta test the site</p>
+                        <a href="#" class="card-link">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card mb-4">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Host</h3>
+			<p class="card-text">Start your own book club</p>
+                        <a href="#" class="card-link">Teach</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fullwidth">
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+		<a href="" class="navbar-brand">Quantum Book Club 2018</a>
+
+            <div class="collapse navbar-collapse" id="footerSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="learn.html">Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clubs.html">Telegram</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="account.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
 </div>
 
-	<div class="container">
-		<div class="box">
-			<h3>Colloborate</h3>
-			<p>Explore your favorite book with others</p>
-			<input type="submit" value="Find A Club" name="join"></input>
-		</div>
-		<div class="box"> 
-			<h3>Join Today</h3>
-			<p>Get in line for beta testing</p>
-			<input type="submit" value="Sign Up" name="signup"></input>
-		</div>
-		<div class="box">
-			<h3>Host</h3>
-			<p>Start a book club today</p>
-			<input type="submit" value="Host" name="host"></input>
-		</div>
-	</div>
 
 
-
- <footer>
- 	<ul>
-		<li><a href="https://github.com/juxley/quantumbook.club">Github<a/></li>
-		<li><a href="contact.html">Contact the Team<a/></li>
-		<li><a href="#">Telegram<a/></li>
- 	</ul>
- </footer>
-<script src="scripts.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
