@@ -1,0 +1,20 @@
+body {
+  color: white;
+  background-color: #606060; }
+
+.nav {
+  padding: 0 50px; }
+
+.jumbotron {
+  background-image: url("/assets/oldbookshelf.jpeg");
+  border-radius: 0rem;
+  height: 50vh;
+  color: white; }
+
+.card {
+  border-radius: 0rem;
+  background-color: #202020;
+  border: 3px solid #EF8542; }
+
+.card-link {
+  color: #EF8542; }

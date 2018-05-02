@@ -22,5 +22,16 @@
   "bugs": {
     "url": "https://github.com/juxley/quantumbook.club/issues"
   },
-  "homepage": "https://github.com/juxley/quantumbook.club#readme"
+  "homepage": "https://github.com/juxley/quantumbook.club#readme",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.1.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
 }
