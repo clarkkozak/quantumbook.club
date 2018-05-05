@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,58 +7,116 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Juxley"></meta>
     <meta name="description" content="An online book club for the world."></meta>
-    <title>Account | Quantum Book Club</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Quantum Book Club</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li class="right"><a href="index.html"><img src="images/logo.png" alt="logo.png"/></a></li>
-            <li><a href="learn.html">Learn</a></li>
-            <li><a href="club.html">Clubs</a></li>
-            <li><a href="account.html">My Account</a></li>
-        </ul>
-    </nav>
+    <div class="container-fullwidth">
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Quantum Book Club</a>
 
-    <div class="account-background">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+		        <span class="navbar-toggler-icon"></span>
+	    </button>
 
-	<div class="account-text">
-		<h2>My Account</h2>
-	</div>
-        <div class="account-container">
-            <div class="account-box">
-                <h3>Log In</h3>
-		<form id=loginForm" action="#">
-			<input type="text" id="loginUser" name="loginUser" placeholder="Username">
-			<input type="password" id="loginPassword" name="loginUser" placeholder="Password">
-                	<input type="submit" value="Login" name="Log In"></input>
-		</form>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="learn.html">Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clubs.html">Clubs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="account.html">My Account</a>
+                    </li>
+                </ul>
             </div>
+        </nav>
 
-            <div class="account-box">
-                <h3>Sign Up for Beta Testing</h3>
-		<form id="betaForm" action="#">
-			<input type="text" id="betaUser" name="betaUser" placeholder="Username">
-			<input type="email" id="betaEmail" name="betaEmail" placeholder="Email">
-			<input type="password" id="betaPassword" name="betaPassword" placeholder="Password">
-			<input type="password" id="betaPassword2" name="betaPassword2" placeholder="Confirm Password">
-                	<input type="submit" value="Sign Up" name="signup"></input>
-		</form>
+        <div class="oldbookshelf">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h3>Log In</h3>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="loginUsername" placeholder="Username">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <h3>Sign Up for Beta Testing</h3>
+                        <form>
+			    <div class="form-group">
+				    <input type="text" class="form-control" id="signupUsername" placeholder="Username">
+			    </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="signupEmail" aria-describedby="emailHelp" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="signupPassword" placeholder="Password">
+                            </div>
+			    <div class="form-group">
+                                <input type="password" class="form-control" id="signup2Password" placeholder="Confirm Password">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
             </div>
+        </div>
 
-    <footer>
-        <ul>
-            <li><a href="https://github.com/juxley/quantumbook.club">Github<a/></li>
-		<li><a href="contact.html">Contact the Team<a/></li>
-		<li><a href="#">Telegram<a/></li>
- 	</ul>
- </footer>
+        <!--  -->
+        <!-- 	<div class="account&#45;text"> -->
+        <!-- 		<h2>My Account</h2> -->
+        <!-- 	</div> -->
+        <!--         <div class="account&#45;container"> -->
+        <!--             <div class="account&#45;box"> -->
+        <!-- 		<form id=loginForm" action="#"> -->
+        <!-- 			<input type="text" id="loginUser" name="loginUser" placeholder="Username"> -->
+        <!-- 			<input type="password" id="loginPassword" name="loginUser" placeholder="Password"> -->
+        <!--                 	<input type="submit" value="Login" name="Log In"></input> -->
+        <!-- 		</form> -->
+        <!--             </div> -->
+        <!--  -->
+        <!--             <div class="account&#45;box"> -->
+        <!-- 		<form id="betaForm" action="#"> -->
+        <!-- 			<input type="text" id="betaUser" name="betaUser" placeholder="Username"> -->
+        <!-- 			<input type="email" id="betaEmail" name="betaEmail" placeholder="Email"> -->
+        <!-- 			<input type="password" id="betaPassword" name="betaPassword" placeholder="Password"> -->
+        <!-- 			<input type="password" id="betaPassword2" name="betaPassword2" placeholder="Confirm Password"> -->
+        <!--                 	<input type="submit" value="Sign Up" name="signup"></input> -->
+        <!-- 		</form> -->
+        <!--             </div> -->
+        <!--  -->
 
     </div>
+    <footer class="footer bg-primary">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-12 bg-primary">Quantum Book Club</div>
+                <div class="col-md-3 col-sm-12 bg-primary">Github</div>
+                <div class="col-md-3 col-sm-12 bg-primary">Contact</div>
+                <div class="col-md-3 col-sm-12 bg-primary">Telegram</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
 
-<script src="scripts.js"></script>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
