@@ -24,9 +24,13 @@
   },
   "homepage": "https://github.com/juxley/quantumbook.club#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "boostrap": "^2.0.0",
     "bootstrap": "^4.1.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
     "jquery": "^3.3.1",
+    "mongo": "^0.1.0",
     "popper.js": "^1.14.3"
   },
   "devDependencies": {

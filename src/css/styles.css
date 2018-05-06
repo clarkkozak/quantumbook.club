@@ -6311,3 +6311,9 @@ body {
   height: 550px;
   border-top: 1px solid #EF8542;
   border-bottom: 1px solid #EF8542; }
+
+footer a {
+  color: white; }
+
+footer a:hover {
+  color: rgba(255, 255, 255, 0.5); }

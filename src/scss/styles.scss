@@ -1,4 +1,6 @@
-$theme-colors: ( "primary": #505050);
+$theme-colors: ( 
+"primary": #505050
+);
 
 
 @import "node_modules/bootstrap/scss/bootstrap";
@@ -59,3 +61,10 @@ body {
    
 }
 
+footer a {
+ color: white
+}
+
+footer a:hover {
+ color: rgba(255, 255, 255, 0.5); 
+}

@@ -44,68 +44,44 @@
                         <h3>Log In</h3>
                         <form>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="loginUsername" placeholder="Username">
+                                <input type="text" class="form-control" id="loginUsername" name="loginUsername"  placeholder="Username">
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+                                <input type="password" class="form-control" id="loginPassword" name="loginPassword"  placeholder="Password">
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" id="loginSubmit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <h3>Sign Up for Beta Testing</h3>
                         <form>
 			    <div class="form-group">
-				    <input type="text" class="form-control" id="signupUsername" placeholder="Username">
+				    <input type="text" class="form-control" id="signupUsername" name="signUsername" placeholder="Username">
 			    </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" id="signupEmail" aria-describedby="emailHelp" placeholder="Email">
+                                <input type="email" class="form-control" id="signupEmail" name="signupEmail" aria-describedby="emailHelp" placeholder="Email">
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" id="signupPassword" placeholder="Password">
+                                <input type="password" class="form-control" id="signupPassword" name="signupPassword" placeholder="Password">
                             </div>
 			    <div class="form-group">
-                                <input type="password" class="form-control" id="signup2Password" placeholder="Confirm Password">
+                                <input type="password" class="form-control" id="signupPassword2" name="signupPassword2" placeholder="Confirm Password">
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" id="signupSubmit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!--  -->
-        <!-- 	<div class="account&#45;text"> -->
-        <!-- 		<h2>My Account</h2> -->
-        <!-- 	</div> -->
-        <!--         <div class="account&#45;container"> -->
-        <!--             <div class="account&#45;box"> -->
-        <!-- 		<form id=loginForm" action="#"> -->
-        <!-- 			<input type="text" id="loginUser" name="loginUser" placeholder="Username"> -->
-        <!-- 			<input type="password" id="loginPassword" name="loginUser" placeholder="Password"> -->
-        <!--                 	<input type="submit" value="Login" name="Log In"></input> -->
-        <!-- 		</form> -->
-        <!--             </div> -->
-        <!--  -->
-        <!--             <div class="account&#45;box"> -->
-        <!-- 		<form id="betaForm" action="#"> -->
-        <!-- 			<input type="text" id="betaUser" name="betaUser" placeholder="Username"> -->
-        <!-- 			<input type="email" id="betaEmail" name="betaEmail" placeholder="Email"> -->
-        <!-- 			<input type="password" id="betaPassword" name="betaPassword" placeholder="Password"> -->
-        <!-- 			<input type="password" id="betaPassword2" name="betaPassword2" placeholder="Confirm Password"> -->
-        <!--                 	<input type="submit" value="Sign Up" name="signup"></input> -->
-        <!-- 		</form> -->
-        <!--             </div> -->
-        <!--  -->
-
     </div>
+
     <footer class="footer bg-primary">
         <div class="container-fluid">
             <div class="row text-center">
-                <div class="col-md-3 col-sm-12 bg-primary">Quantum Book Club</div>
-                <div class="col-md-3 col-sm-12 bg-primary">Github</div>
-                <div class="col-md-3 col-sm-12 bg-primary">Contact</div>
-                <div class="col-md-3 col-sm-12 bg-primary">Telegram</div>
+		    <div class="col-md-3 col-sm-12 bg-primary"><a href="index.html">Quantum Book Club</a></div>
+		    <div class="col-md-3 col-sm-12 bg-primary"><a href="https://github.com/juxley/quantumbook.club">Github</a></div>
+		    <div class="col-md-3 col-sm-12 bg-primary"><a href="contact.html">Contact</a></div>
+		    <div class="col-md-3 col-sm-12 bg-primary"><a href="template.html">Telegram</a></div>
             </div>
         </div>
     </footer>
@@ -114,9 +90,6 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
-
-    <script src="scripts.js"></script>
 </body>
 
 </html>
